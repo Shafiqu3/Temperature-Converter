@@ -5,6 +5,21 @@ body{
     box-sizing: border-box;
 }
 
+  
+.site-header {
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin: auto;
+}
+
+.site-identity h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: .6em 0;
+    display: inline-block;
+}
 
 a {
     text-decoration: none;
@@ -12,15 +27,62 @@ a {
     padding-left: 1.5em;
   }  
 
-  
-.site-header {
-    border-bottom: 1px solid #000;
+.container {
     display: flex;
-    justify-content: space-between; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    height: 600px;
+}
+.content {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 140px 0;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
 }
 
-.site-identity h1 {
-    font-size: 1.5em;
+.uc {
+    flex: 1;
+}
+#menu {
+    padding-left: 2em;
     margin: .6em 0;
-    display: inline-block;
+}
+
+
+.values {
+text-align: start;
+width: 434px;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.value {
+    flex-basis: 100%;
+}
+
+input {
+    width: 174px;
+    padding: 1px 2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+
+select {
+    width: 180px;
+    padding: 1px 2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
