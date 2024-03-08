@@ -17,7 +17,7 @@ function celsiusToFahrenheit(celsius) {
   console.log(fahrenheit);
   console.log(kelvin);
 
-    // Return the results as an object for clarity
+    // Return the results as an object 
     return {
         celsius: celsius,
         fahrenheit: fahrenheit.toFixed(2),
